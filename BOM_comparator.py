@@ -25,11 +25,17 @@ class ExcelManagement():
             wb_list.append(self.get_value(value, col))
         return wb_list
 
+    def main_program(self, row_start, row_end, column_list):
+        for 
+
 class ListManagement():
 
     def __init__(self):
         self.source_listA = ExcelManagement(wb1).list_creator(row_start,row_end,col)
         self.source_listB = ExcelManagement(wb1).list_creator(row_start,row_end,col)
+
+    def column_list_creation(colA, colB, *args):
+        
 
     def list_comparator_rank1(self, self.source_listA, self.source_listB):
         destination_list = []
